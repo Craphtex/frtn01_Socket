@@ -49,12 +49,12 @@ public abstract class Glue {
 		if (packet.isPing()) {
 			if (packet.isReturningPing()) {
 				ping = time - packet.getPing();
-				Util.print("Received (Glue): " + time + " Ping [" + ping + "]");
+				Util.print("Received (Glue): " + time + " Ping [" + ping + " ms]");
 			} else {
 				packet.setReturningPing();
 				returningPingPacket = packet;
 				Util.print("Received (Glue): " + time + " Ping packet ["
-						+ packet.isReturningPing() + "ms]");
+						+ packet.isReturningPing() + "]");
 			}
 		} else {
 			if (packet.getTimestamp() > lastPacket) {

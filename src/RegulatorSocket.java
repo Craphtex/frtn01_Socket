@@ -142,7 +142,7 @@ public class RegulatorSocket {
 			try {
 				long i = 0;
 				while (!Thread.interrupted()) {
-					if (i++ % 1000 == 0) {
+					if (i++ % 10 == 0) {
 						Packet packet = glue.getPingPacket();
 						if (packet != null) {
 							packet.send(datagramSocket);
