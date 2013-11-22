@@ -177,7 +177,7 @@ public class RegulatorSocket {
 					Packet packet = Packet.recieve(datagramSocket);
 					glue.setPacket(packet);
 					// Sleep
-					Thread.sleep(receivePeriod);
+					//Thread.sleep(receivePeriod);
 				}
 			} catch (InterruptedException e) {
 				e.printStackTrace();
