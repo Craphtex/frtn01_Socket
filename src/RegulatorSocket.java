@@ -165,7 +165,7 @@ public class RegulatorSocket {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			Util.print("Thread stoped!");
+			Util.print("Thread stopped!");
 		}
 	}
 
@@ -184,7 +184,7 @@ public class RegulatorSocket {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			Util.print("Thread stoped!");
+			Util.print("Thread stopped!");
 		}
 	}
 
