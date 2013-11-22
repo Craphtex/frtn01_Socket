@@ -54,7 +54,7 @@ public abstract class Glue {
 				packet.setReturningPing();
 				returningPingPacket = packet;
 				Util.print("Received (Glue): " + time + " Ping packet ["
-						+ packet.isReturningPing() + "]");
+						+ packet.isReturningPing() + "ms]");
 			}
 		} else {
 			if (packet.getTimestamp() > lastPacket) {
