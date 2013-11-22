@@ -179,8 +179,8 @@ public class RegulatorSocket {
 					// Sleep
 					//Thread.sleep(receivePeriod);
 				}
-			} catch (InterruptedException e) {
-				e.printStackTrace();
+//			} catch (InterruptedException e) {
+//				e.printStackTrace();
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
