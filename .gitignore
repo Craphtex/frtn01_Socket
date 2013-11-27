@@ -2,7 +2,9 @@
 ## IntelliJ
 #################
 .idea/
+workspace.xml
 .src/META-INF
+*.iml
 
 #################
 ## Eclipse
